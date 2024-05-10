@@ -17,3 +17,10 @@ git init .
 
 // ver configuraciones
 git config --list --global    // puede ser local tambien
+
+// para ver las opciones con config
+git config
+
+// para cambiar el usuario
+git condig --global user.name "Elias Oviedo"
+// para 
