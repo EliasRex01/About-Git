@@ -1,5 +1,1 @@
-# hello-world.
-
-
-
-http://kioskodelia.tk/
+# Guia de comandos esenciales de git
