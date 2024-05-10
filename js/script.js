@@ -1,50 +1,17 @@
-let cart = document.querySelector('.shopping-cart');
+// Agregar control de versiones desde terminal git
+// crear un repositorio vacio
+  git init
 
-document.querySelector('#cart-btn').onclick = () =>{
-  cart.classList.toggle('active');
-  login.classList.remove('active');
-  navbar.classList.remove('active');
-}
+// añadir todos los archivos en la carpeta al control de versiones
+  git add .
 
-let login = document.querySelector('.login-form');
+// ver los archivos añadidos sin conmitear
+  git status
 
-document.querySelector('#login-btn').onclick = () =>{
-  login.classList.toggle('active');
-  cart.classList.remove('active');
-  navbar.classList.remove('active');
-}
+// hacer el conmiteo (ejemplo)
+  git commit -am "Inicial"
 
-let navbar = document.querySelector('.navbar');
+// para ver los commit hechos
+  git log
 
-document.querySelector('#menu-btn').onclick = () =>{
-  navbar.classList.toggle('active');
-  cart.classList.remove('active');
-  login.classList.remove('active');
-}
 
-window.onscroll = () =>{
-  login.classList.remove('active');
-  navbar.classList.remove('active');
-  cart.classList.remove('active');
-}
-
-var swiper = new Swiper(".review-slider", {
-  spaceBetween:20,
-  centeredSlides: true,
-  autoplay: {
-    delay: 7500,
-    disableOnInteraction: false,
-  },
-  loop: true,
-  breakpoints: {
-    0:{
-      slidesPerView: 1,
-    },
-    768:{
-      slidesPerView: 2,
-    },
-    991:{
-      slidesPerView: 3,
-    },
-  },
-});
