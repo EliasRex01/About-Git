@@ -1,7 +1,7 @@
 // Agregar control de versiones desde terminal git
 // crear un repositorio vacio
   git init
-
+git init .
 // añadir todos los archivos en la carpeta al control de versiones
   git add .
 
@@ -15,3 +15,5 @@
   git log
 
 
+// ver configuraciones
+git config --list --global    // puede ser local tambien
