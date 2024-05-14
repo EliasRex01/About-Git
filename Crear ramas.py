@@ -2,3 +2,11 @@
 
 -- dentro de la terminal
 git status
+
+-- crear una rama 
+-- forma 1
+git branch nombre_rama
+
+-- forma 2
+git checkout -b nombre_rama
+
