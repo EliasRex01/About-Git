@@ -92,3 +92,7 @@ git add .
 git status
 
 git commit -am "archivo creado y modificado en la rama desarrollo"
+
+-- usar git desde VS
+
+-- en la terminal de VS se usan los mismos comandos normales de git
