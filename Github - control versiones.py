@@ -33,3 +33,10 @@ git push pruebas main
 # clonar un repositorio
 # en una carpeta local se abre terminal, el link puede ser http u otro
 git clone link_copiado
+
+
+# tambien se puede conectar el local al desktop 
+# (el desktop se conecta a la pagina de github)
+# al actualizar la carpeta local se actualiza en github web
+# y si se actualiza en github web al darle a pull se
+# actualiza la version del local
