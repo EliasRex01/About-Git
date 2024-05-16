@@ -19,3 +19,8 @@ git add clave.txt
 
 # para ver la ayuda es con git help
 git help
+
+# web para crear estos archivos
+toptal.com gitignore.io
+# seleccionar las caracteristicas y luego el texto generado se copia a nuestro 
+# archivo .gitignore
