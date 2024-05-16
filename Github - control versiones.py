@@ -29,3 +29,7 @@ git commit -am "inicio git"
 
 # mandar un archivo recien creado
 git push pruebas main
+
+# clonar un repositorio
+# en una carpeta local se abre terminal, el link puede ser http u otro
+git clone link_copiado
