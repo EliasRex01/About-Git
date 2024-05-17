@@ -1,1 +1,2 @@
-# Guia de comandos esenciales de git
+# Essentials for git
+# Comands and tricks
