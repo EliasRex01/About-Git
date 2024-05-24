@@ -40,3 +40,14 @@ git clone link_copiado
 # al actualizar la carpeta local se actualiza en github web
 # y si se actualiza en github web al darle a pull se
 # actualiza la version del local
+
+git add nom_archivo
+git push origin main
+git status
+git commit -am "actualización"
+git push origin main
+
+# Mandar a GitHub la rama main
+
+git commit -am "comentario"
+git push origin main
